@@ -1,0 +1,29 @@
+{
+  "name": "find_your_trainer",
+  "version": "1.0.0",
+  "description": "Find Your Personal Trainer BackEnd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyadelashwal/Find_Your_Trainer.git"
+  },
+  "author": "Zyad Mahmoud Muhammed Elashwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zyadelashwal/Find_Your_Trainer/issues"
+  },
+  "homepage": "https://github.com/zyadelashwal/Find_Your_Trainer#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
